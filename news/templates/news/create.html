@@ -18,14 +18,16 @@
             <div class="card-body">
                 <div class="d-grid gap-1 d-md-flex space-between" id="space_b">
                     <form action="/news/create/" method="POST">  {% csrf_token %}
-
-                        <label for="exampleFormControlInput1" class="form-label">Title</label>
-                        <input type="text" name="title">
-                        <br>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Title</label>
+                          <input type="text" name="title" class="form-control" id="exampleFormControlInput1" placeholder="example title">
+                        </div >
+                        <div class="mb-3" >
                         <label for="exampleFormControlInput1" class="form-label">Text</label>
-                        <input type="text" name="text"><br><br>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="text"></textarea>
+                        <br>
                         <button class="btn btn-outline-success" type="submit">Submit</button>
-
+                        </div>
                     </form>
                 </div>
             </div>
