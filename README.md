@@ -1,5 +1,5 @@
 # News-Portal
-> Training project created while learning basics of Django Framework.
+> Training project created while learning basics of Django Framework. ( CRUD project )
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -25,6 +25,8 @@
 ## Features
 - Creating news.
 - Searching for news.
+- Editing news
+- Removes news
 
 ## Setup
 Before we start, I recommend you to use built-in Python module [venv](https://docs.python.org/3/library/venv.html).
@@ -47,9 +49,7 @@ Project is: _finished_ as its goal was only to create a simple web application.
 
 
 ## Room for Improvement
-- Add more functionalities: delete news, edit news.
 - Create user accounts.
-- Move data from json file to database e.g SQLite
 
 
 ## Acknowledgements
